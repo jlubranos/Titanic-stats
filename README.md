@@ -1,4 +1,4 @@
-![titanic1](images\titanic1.gif)
+![titanic1](images\images\titanic1.gif)
 
 # __Project Festivus__
 # Titanic-stats application
