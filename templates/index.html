@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" href="../static/images/ficon.png" type="image/png" sizes="16x16">
+    <title>Titanic Passengers</title>
+</head>
+<body>
+    <div class="container">
+            <div class="selection-box">
+                <h5>Click play if you want to hear the Titanic</h5>
+                <audio autoplay controls>
+                    <source src="../static/images/big-ship-horn.mp3" type="audio/mpeg">
+                </audio>
+                <h4> Passengers by Class</h4>
+                <select id="Passengers" onchange="optionClick(this.value)">
+                    <option value="Select Option">Select Option</option>
+                    <option value="All">All</option>
+                    <option value="1st">First Class Passengers</option>
+                    <option value="2nd">Second Class Passengers</option>
+                    <option value="3rd">Third Class Passengers</option>
+                </select>
+            </div>
+            <div class="titanic-image" width=300px></div>
+            <div class="graph-container" id="hist">
+            </div>
+        </div>   
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="../static/index.js"></script>    
+</body>
+</html>

@@ -1,0 +1,43 @@
+.container {
+    position:relative;
+    height:auto;
+    width:auto;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    text-align:center;
+    color:blue;
+}
+
+.selection-box {
+    position:relative;
+    margin-top:10px;
+
+}
+
+.graph-container {
+    position:absolute;
+    top:225px;
+    width:100%;
+    z-index:2;
+}
+
+audio { 
+    width: 250px;
+    height:20px; 
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
+  }
+
+  .titanic-image {
+    position:relative;
+    margin-top:25px;
+    background-image:url(../static/images/titanic2.gif);
+    height:800px;
+    background-position:top;
+    background-size:35%;
+    background-repeat:no-repeat;
+    background-color:transparent;
+    color:black;
+}
