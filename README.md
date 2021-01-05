@@ -10,3 +10,5 @@ The app provides the user with four bar graphs.
 * Passenger status of 1st Class
 * Passenger status of 2nd Class
 * Passenger status of 3rd Class
+
+## To run app goto browser and type https://titanic-stats.herokuapp.com
